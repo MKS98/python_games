@@ -1,0 +1,19 @@
+import list of random words
+create function to choose valid words
+create hangman function
+    create set of the choosen word letters (word_l)
+    create set of the alphapets (alphapet)
+    create set of user input letters (user_l)
+    take char input from the user 
+    compare it to the letters in choosen word
+    if it is in word_l add it to user_l and remove it from word_l
+    else if char is in user_l print error (try again alrdy used)
+
+
+
+
+hangman game:
+computer chooses a random word from a list
+you need to take user input char by char
+every time he input a char that exists in that word you show it to him
+if he input wrong one you take on life from him
